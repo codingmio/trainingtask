@@ -28,11 +28,14 @@ body {
 }
 .wrap {
   @include view-wrap;
-  padding: $padding-y-xl;
+  padding: $padding-xl;
 
 
   .wrap-body {
     @include d-flex;
+    width: $w-100;
+    margin-left: -$size-base * 1.5;
+    margin-right: -$size-base * 1.5;
   }
 
   .wrap-title {
@@ -60,7 +63,7 @@ header {
     
     
     nav {      
-      padding: $padding-base;
+      padding: $padding-base $size-base*1.5;
     }
   }
 }
@@ -146,7 +149,8 @@ nav {
 
     .item {
       @include col-4;
-      padding: $size-base * 3 $size-base * 1.5;
+      padding-top: $size-base * 3;
+      padding-bottom: $size-base * 3;
       text-align: $align-center;
 
       p {
@@ -180,7 +184,6 @@ nav {
     
     .col-md-3 {
       @include col-3;
-      padding: $padding-x-base;
     }   
     
   }
@@ -216,7 +219,6 @@ nav {
 
     .col-6 {
       @include col-6;
-      padding: $padding-x-base;
     }
   }
   .card {
@@ -266,7 +268,6 @@ nav {
 
     .col-md-4 {
       @include col-4;
-      padding: $padding-x-base;
     }
 
     .slick-list {padding-top: $size-base * 5;}
@@ -430,7 +431,6 @@ footer {
 
     .col-6 {
       @include col-6;
-      padding: $padding-x-base;
     }
 
     .card {margin-bottom: 0;}
