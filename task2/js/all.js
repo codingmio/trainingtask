@@ -49,6 +49,7 @@ $(function () {
     ]
   });
 
+
   //Tabs
   $('.plan-tabs li a').on('click', function (e) {
     e.preventDefault();

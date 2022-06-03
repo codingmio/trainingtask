@@ -331,7 +331,7 @@ nav .logo img {
   padding: 0 15px;
 }
 
-.wrap-3 .wrap-card .col-6 {
+.wrap-3 .wrap-card .col-md-6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
@@ -595,9 +595,11 @@ footer .wrap .btn-primary {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
-#plan-content .wrap-card .col-6 {
+#plan-content .wrap-card .col-md-6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
@@ -799,12 +801,13 @@ footer .wrap .btn-primary {
     max-height: 25px;
   }
   .wrap .wrap-body {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    margin-left: 0;
+  }
+  .wrap .wrap-title {
+    font-size: 28px;
+  }
+  .home {
+    background: url(../images/ball01.svg) no-repeat -70px 14%/125px, url(../images/ball02.svg) no-repeat 120% 60%/135px;
   }
   .banner {
     background: url(../images/bg_home_sm.svg) no-repeat center 90%/90%;
@@ -840,6 +843,133 @@ footer .wrap .btn-primary {
             flex: 0 0 100%;
     max-width: 100%;
     padding: 0 15px;
+    margin-bottom: 30px;
+  }
+  .wrap-2 .wrap-body .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+  .wrap-3 .wrap-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .wrap-3 .wrap-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .wrap-3 .wrap-info .wrap-title {
+    text-align: center;
+  }
+  .wrap-3 .wrap-card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .wrap-3 .wrap-card .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+  .comment {
+    background: url(../images/ball03.svg) no-repeat -70px 20%/150px;
+  }
+  footer {
+    background: url(../images/footer_sm.svg) no-repeat center top/100%;
+  }
+  footer .wrap {
+    padding-top: 250px;
+    padding-bottom: 30px;
+  }
+  footer .wrap-title {
+    font-size: 24px;
+  }
+  .banner-inner {
+    background: url(../images/banner_sm.svg) no-repeat left bottom/100%;
+    height: 70vh;
+  }
+  .banner-inner::after {
+    height: 100%;
+    border-bottom-left-radius: 150px;
+  }
+  .banner-inner .wrap {
+    height: 70vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .banner-inner .banner-caption {
+    margin-top: 66px;
+  }
+  .plan .plan-tabs {
+    width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .plan .plan-tabs li {
+    padding: 15px 0;
+  }
+  .plan .plan-tabs li a {
+    margin: 0 5px;
+  }
+  #plan-content {
+    width: 100%;
+  }
+  #plan-content .wrap-card .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+  #plan-content .card-body .card-feature {
+    width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #plan-content .card-body .card-feature .item {
+    min-width: 45%;
+    padding: 15px 10px;
+    margin: 0 10px;
+  }
+  #plan-content .card-body .user-num > span, #plan-content .card-body .price > span {
+    font-size: 28px;
+  }
+  #plan-content .card-body .feature-list {
+    padding: 0 10px;
+  }
+  #plan-content .card-body .feature-list li {
+    position: relative;
+    padding-left: 25px;
+  }
+  #plan-content .card-body .feature-list li::before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  .qa-accordion .qa-link {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .qa-accordion .qa-collapse {
+    padding: 15px 15px 30px;
+    line-height: 1.75;
   }
 }
 /*# sourceMappingURL=all.css.map */

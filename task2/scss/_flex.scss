@@ -5,10 +5,14 @@
 }
 
 $flex-column: column;
+$flex-column-reverse: column-reverse;
 $flex-row: row;
 
 //justify-content
 $justify-content-between: space-between;
+
+//align-items
+$align-items-start: flex-start;
 
 @mixin col-item-5 {
   flex: 0 0 20%;

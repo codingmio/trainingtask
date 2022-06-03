@@ -217,7 +217,7 @@ nav {
     @include d-flex;
     @include col-6;
 
-    .col-6 {
+    .col-md-6 {
       @include col-6;
     }
   }
@@ -428,8 +428,10 @@ footer {
 
   .wrap-card {
     @include d-flex;
+    margin-left: -$size-base * 1.5;
+    margin-right: -$size-base * 1.5;
 
-    .col-6 {
+    .col-md-6 {
       @include col-6;
     }
 
