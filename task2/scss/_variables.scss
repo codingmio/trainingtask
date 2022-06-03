@@ -1,0 +1,78 @@
+// Color
+$white: #fff;
+$black: #000;
+$gray-900: #221E1F;
+$gray-800: #2E2E2E;
+$gray-500: #747474;
+$gray-200: #DDDDDD;
+$gray-100:#F5F5F5;
+$gray-50: #F7F9FD;
+$primary: #56C4C5;
+$red: #FF5D50;
+$yellow: #F5CA52;
+$transparent: transparent;
+
+
+// Typography
+$font-family-base: 'Comfortaa', 'Noto Sans TC', "Helvetica", Arial, sans-serif;
+$font-WendyOne: 'Wendy One', sans-serif;
+$font-size-base: 16px;
+$font-line-height-base: 1.5;
+$font-line-height-xl: 1.75;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
+
+// Sizes
+$w-100: 100%;
+$viwe-height-100: 100vh;
+$view-width-base: 1200px;
+$size-base: 10px;
+
+// Padding Spacing
+$padding-base: $size-base * 2.5 $size-base * 1.5;
+$padding-x-base: 0 $size-base * 1.5;
+$padding-y-base: $size-base * 2.5 0;
+$padding-y-xl: $size-base * 5 0;
+
+
+// Margin Spacing
+$margin-bottom-base: $size-base * 3;
+$margin-x-auto: 0 auto;
+
+
+// Position
+$position-relative: relative;
+$position-absolute: absolute;
+$position-fixed: fixed;
+$align-auto: auto;
+$align-left: left;
+$align-center: center;
+
+//Views
+@mixin view-wrap {
+  width: $w-100;
+  max-width: $view-width-base;
+  margin: $margin-x-auto;
+}
+
+
+//Box-shadow
+$box-shadow-base: 0px 2px 10px rgba($black, .08);
+
+
+//Transition
+$transition-base: all .3s ease-out;
+
+
+//Border-radius 
+@mixin rounded-top {
+  border-top-left-radius: $size-base * 1.2;
+  border-top-right-radius: $size-base * 1.2;
+}
+
+//Display
+$d-none: none;
+$d-block: block;
+$d-inline: inline-block;

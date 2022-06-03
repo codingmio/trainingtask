@@ -1,0 +1,61 @@
+// desktops 1200px
+@media (max-width : 1200px) {
+  nav {
+    padding: $size-base * 2.5 $size-base * 1.5;
+  }
+  .home {
+    background: url(../images/ball01.svg) no-repeat -220px 25% / 360px, 
+                url(../images/ball02.svg) no-repeat 105% 65% / 300px;
+  }
+  .wrap {
+    width: $w-100;
+    max-width: $w-100;
+    padding: $size-base * 3 $size-base * 1.5;
+  }
+  .banner-inner {
+    .banner-caption {
+      padding: $padding-base;
+    }
+  } 
+
+  #plan-content{
+    .card-body {
+      .card-feature {
+        .item {
+          min-width: $w-100 * .35;
+        }
+      }
+    }
+  }   
+
+  footer {
+    .wrap {
+    padding: $size-base * 20 $size-base * 1.5 $size-base * 9;
+    }
+  } 
+}
+
+//phones
+@media (max-width : 576px)  {
+  header {
+    background: $white;
+    padding: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    box-shadow: $box-shadow-base;
+
+  }
+  nav {
+    max-width: $w-100;
+    padding: $size-base $size-base *2;
+    border-bottom: 2px solid $yellow;
+    margin: 0;
+
+    .logo img {
+      max-height: $size-base * 2.5;
+    }
+  }
+  main {
+    margin-top: $size-base * 6.6;
+  }
+}

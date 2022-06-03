@@ -1,0 +1,25 @@
+//card basic
+@mixin card {
+  background: $white;
+  border-radius: $size-base * 1.2;
+  box-shadow: $box-shadow-base;
+  margin-bottom: $margin-bottom-base;
+}
+
+.card {
+  @include card;
+}
+
+.card-body {
+  padding: $size-base * 2 $size-base * 1.5;
+
+  p {
+    margin-bottom: $margin-bottom-base / 2;
+  }
+}
+
+.card-title {
+  font-size: $font-size-base * 1.125;
+  font-weight: $font-weight-bold;
+  margin-bottom: $margin-bottom-base / 2;
+}
